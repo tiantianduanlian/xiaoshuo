@@ -3,13 +3,13 @@ const { themes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'IT知识学习网站',
+  title: '小说网站',
   tagline: '编程教程学习平台',
   favicon: 'img/favicon.ico',
 
   url: 'https://your-domain.com',
   // baseUrl  需要改成你的仓库名，如果你启用了GitHub Pages，请改成你的仓库名,默认是/
-  baseUrl: 'mydoc',
+  baseUrl: 'xiaoshuo',
   // 对于死链接，默认是warn，可以改成其他的选项，比如ignore,throw
   onBrokenLinks: 'warn',
 
@@ -50,7 +50,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'IT知识学习网站',
+        title: '小说网站',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -105,7 +105,7 @@ const config = {
 
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} IT知识学习网站`,
+        copyright: `Copyright © ${new Date().getFullYear()} 小说网站`,
       },
 
       prism: {
